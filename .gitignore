@@ -1,2 +1,4 @@
 data
 .ipynb_checkpoints
+py/__pycache__
+py/SciServer/__pycache__

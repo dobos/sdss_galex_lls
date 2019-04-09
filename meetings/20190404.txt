@@ -1,0 +1,19 @@
+Krisztián: copy download scripts to common directory
+  /mnt/local/data/astro/lls/scripts
+
+László: Clean up fits directories
+  data/galex/fits/Galex		-	data/galex_all.txt
+  data/sdss/fits/lls_only	-	data/lls_only.txt
+  data/sdss/fits/More_SDSS	-	data/SDSS_DR14_MgII_SNR_5_2.5_20180701.dat
+
+Krisztián:
+  try to find missing files
+  in Galex, not all of them are reduced in the xg version
+
+Everyone:
+  - plot SDSS QSO spectra with high resolution, multiple lines
+  - plot Galex spectra with dynamic y-axis scaling
+  - maybe omit noisy parts of Galex spectra entirely in plots
+  - maybe apply low pass filter (moving average)
+  - play around with filtering, try to emphasize narrow absorption lines
+

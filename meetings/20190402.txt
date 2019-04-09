@@ -1,0 +1,17 @@
+Sandor: LLS fitting
+- check how many lines of the series are used, can this number be increased if necessary?
+- test line blending by varying velocity dispersion
+- vdisp should be small
+
+Barbara: We need to upgrade plots:
+- emission line names (Mg, Si, C etc.)
+- add z and name of object, SNR
+- cut above 9200 AA
+- scale y axis manually to get rid of peaks from noise
+	- could use histogram technique (cut at 10%)
+	- or order flux values and cut at quantiles: https://en.wikipedia.org/wiki/Quantile
+- plot error on the bottom in red, and not as +/- around the flux, which one is better when looking at fits?
+
+Krisztian: merge files into a single database of objects
+
+Gerry: send info on stsci student programs

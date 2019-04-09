@@ -1,0 +1,26 @@
+1. Stack lines of absorvers?
+
+It’s been done for SDSS: http://adsabs.harvard.edu/abs/2017ApJ...850..156L
+
+We can do the same but add GALEX for our sample of 1300 quasars,
+to get a better idea of metallicities.
+Having the HI lines should be VERY helpful!
+
+Fit stacked lines with cloudy
+Stack spectra of absorbers in high-metallicity/low-metallicity groups
+
+Can we stack different lines of the same ion of _same_ absorber to get higher SNR?
+
+2. Look at the Ly series in the Galex spectra
+
+Could get an upper limit on HI column density from Ly series
+Can use these limits as prior in LLS fitting or use in addition to LLS fitting
+Ly lines might be saturated, no way to tell from low-res Galex spectra
+
+3. Krisztián will compile a jupyter notebook
+
+Specify SDSS ID, generate diagnostic plots, print all available info on system
+Allow for tuning LLS fit manually
+Short tutorial on how to use it
+
+

@@ -1,0 +1,28 @@
+We already have very nice diagnostic plots: novo2:/mnt/local/data/astro/lls/plots/2/ Krisztián will work a little bit more on them to fix a few problems. Once the problems are fixed, he’ll generate the plots for the entire data set.
+
+Barbara will try to fit the QSO continua with power law by masking out obvious emission lines and known absorption lines. Once we know the continuum it can be continued to the Galex wavelength range and used as a prior for LLS fitting.
+
+It just occurred to me that both SDSS and Galex spectra need to be corrected for galactic reddening. We’ve done this for another project. I’ll try to find the relevant python code and send it around.
+
+Here’s a short list of what needs to be done during upcoming weeks
+
+1. Try to reduce PNG resolution. Images are now 9000x6000 pixels and files are too big.
+2. Draw a vertical line at the Lyman limit on the Galex plot.
+3. Plot the error interval on galex too.
+4. Separate plots for multiple absorbers (add postfix to file name if necessary)
+5. Convert Galex flux to SDSS units
+6. Try to reduce smoothing window of SDSS spectrum to 100 A to avoid bumps
+
+7. Use plot coordinates for y when plotting line markers and text, e.g.:
+
+ax.text(0.95,0.05,'SDSS DR7 main',fontsize=6,ha='right',transform=ax.transAxes)
+
+8. Find relevant qso emission lines in database, plot markers
+
+List of astrophysically relevant spectral lines:
+
+http://astronomy.nmsu.edu/drewski/tableofemissionlines.html
+
+9. Try to mask QSO emission and LLS absorption lines and fit power-law to QSO continuum
+
+

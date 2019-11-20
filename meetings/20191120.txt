@@ -1,0 +1,19 @@
+Discussed refractory elements, latest line list
+-- about 15 lines to check for each of 30 quasars
+
+Bob Carswell offered to use vpfit to measure the HI column densities (with [big] error bars)
+
+Laszlo - checking code with Krisztian
+check metal lines with Gaussian and also straight integration methods
+-- Gaussians are easily distorted in the case of weak lines with noise
+
+G: Assume a small b-value for metal lines, maybe bound with a low and high values, say 3 and 10 km/s,
+but it depends a bit on the mass of the atom for the element in question.
+Usually there is a mix of thermal and turbulent motion, but turbulent motion >10 km/s is rare,
+>30 km/s is unknown in my experience.
+
+Try to get line measurements done in a first version by Christmas.
+
+Jozsef Vinko recommended  Sandor Frey as a local contact in Budapest for Sandor.
+
+
